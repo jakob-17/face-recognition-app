@@ -13,7 +13,7 @@ const db = knex({
     connection: {
         host: '127.0.0.1', // localhost
         user: 'postgres',
-        password: 'ruby1798',
+        password: '', // whoops
         database: 'face-recognition-api'
     }
 });
